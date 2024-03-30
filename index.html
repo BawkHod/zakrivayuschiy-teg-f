@@ -383,8 +383,10 @@
         </svg>
         <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <form>
-        <button class="button ok-button" onclick="window['dialog-id'].close()" type="submit" aria-controls="dialog-id">
+      <form method="dialog">
+        <button class="button ok-button" 
+        type="submit" 
+        aria-controls="dialog-id">
           <span class="button__text">Ok</span>
         </button>
       </form>
