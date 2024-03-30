@@ -142,7 +142,7 @@
   fill: var(--page-background);
   transition-duration: 0.3s;
   transition-property: fill;
-  transition-timing-function: linear;
+  transition-timing-function: ease;
 }
 
 .like-icon .core {
@@ -150,7 +150,7 @@
   transition-delay: 0.03s;
   transition-duration: 0.3s;
   transition-property: fill;
-  transition-timing-function: linear;
+  transition-timing-function: ease;
 }
 
 .like-icon .sparks {
@@ -351,6 +351,7 @@
 .theme-menu__button:disabled::before {
   content: "▶";
   position: absolute;
+  inset-block-start: 0;
   inset-inline-start: -15px;
 }
 
