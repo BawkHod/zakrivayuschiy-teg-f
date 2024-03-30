@@ -37,7 +37,7 @@
     );
   background-size: cover;
   background-attachment: fixed;
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: "wght" 400;
   min-inline-size: 320px;
   min-block-size: 100dvb;
 }
@@ -82,7 +82,7 @@
   font-size: 14px;
   text-shadow: -1px 0 var(--label-stroke-color), 0 1px var(--label-stroke-color),
     1px 0 var(--label-stroke-color), 0 -1px var(--label-stroke-color);
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: "wght" 400;
   mix-blend-mode: hard-light;
   inset-inline-end: 25px;
   inset-block-start: 27px;
@@ -376,7 +376,7 @@
   padding-inline: 10px;
   padding-block: 4px;
   font-size: 18px;
-  font-variation-settings: var(--title-font-weight);
+  font-variation-settings: "wght" 700;
 }
 
 .card__image {
