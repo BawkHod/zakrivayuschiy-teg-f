@@ -132,17 +132,17 @@
 
 .like-icon .contour {
   fill: var(--text-color);
-  transition-delay: 0.06s;
-  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-duration: 0.1s;
   transition-property: fill;
-  transition-timing-function: ease-in;
+  transition-timing-function: linear;
 }
 
 .like-icon .main-body {
   fill: var(--page-background);
   transition-duration: 0.3s;
   transition-property: fill;
-  transition-timing-function: ease;
+  transition-timing-function: linear;
 }
 
 .like-icon .core {
@@ -150,7 +150,7 @@
   transition-delay: 0.03s;
   transition-duration: 0.3s;
   transition-property: fill;
-  transition-timing-function: ease;
+  transition-timing-function: linear;
 }
 
 .like-icon .sparks {
@@ -187,7 +187,7 @@
   transition-delay: 0.06s;
   transition-duration: 0.3s;
   transition-property: fill;
-  transition-timing-function: ease-in;
+  transition-timing-function: linear;
 }
 
 .like-icon.is-liked .main-body {
@@ -211,8 +211,6 @@
   font-family: var(--fantasy-font-family);
   font-size: 14px;
   background: transparent;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
   cursor: pointer;
 }
 
@@ -239,6 +237,9 @@
 }
 
 .button:focus-visible {
+  transition-property: box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
   box-shadow: 2px 2px 0px 0px var(--text-color);
 }
 
