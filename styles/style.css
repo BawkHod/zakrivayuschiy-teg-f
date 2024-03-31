@@ -211,6 +211,8 @@
   font-family: var(--fantasy-font-family);
   font-size: 14px;
   background: transparent;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
   cursor: pointer;
 }
 
@@ -238,8 +240,6 @@
 
 .button:focus-visible {
   transition-property: box-shadow;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
   box-shadow: 2px 2px 0px 0px var(--text-color);
 }
 
